@@ -1,6 +1,6 @@
 # 1 Task
 
-Find the square of the number entered by a user.
+Write a program that find the square of the number entered by a user.
 
 ## Example
 
