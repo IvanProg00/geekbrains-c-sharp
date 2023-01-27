@@ -5,5 +5,5 @@ number.
 
 ## Example
 
-// 3 -> Wednesday
-// 5 -> Friday
+- 3 -> Wednesday
+- 5 -> Friday
