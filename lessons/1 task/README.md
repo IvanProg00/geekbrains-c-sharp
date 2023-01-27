@@ -4,6 +4,6 @@ Find the square of the number entered by a user.
 
 ## Example
 
-1 -> 1
-2 -> 4
-4 -> 16
+- 1 -> 1
+- 2 -> 4
+- 4 -> 16
