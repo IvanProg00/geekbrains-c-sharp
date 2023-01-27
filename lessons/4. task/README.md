@@ -1,4 +1,4 @@
-# 4 Task
+# Task 4
 
 Write a program that takes one number (N) as input, and shows all integers in
 the range from -N to N as output.

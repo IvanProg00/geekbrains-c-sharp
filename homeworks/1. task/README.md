@@ -1,4 +1,4 @@
-# 1 Task
+# Task 1
 
 Write a program that accepts two numbers as input and outputs which number is
 larger and which is smaller.

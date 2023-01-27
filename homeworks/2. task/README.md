@@ -1,4 +1,4 @@
-# 2 Task
+# Task 2
 
 Write a program that accepts three numbers as input and outputs the maximum of
 these numbers.

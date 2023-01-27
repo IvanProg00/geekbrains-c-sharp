@@ -1,4 +1,4 @@
-# 4 Task
+# Task 4
 
 Write a program that takes a number (N) as input, and shows all even numbers
 from 1 to N as output.
