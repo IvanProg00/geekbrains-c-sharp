@@ -1,4 +1,4 @@
-# 5 Task
+# Task 5
 
 Write a program that accepts a three-digit number as input and shows the last
 digit of this number as output.

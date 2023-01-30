@@ -1,4 +1,4 @@
-# 2 Task
+# Task 2
 
 Write a program that takes two numbers as input and checks whether the first
 number is the square of the second.
