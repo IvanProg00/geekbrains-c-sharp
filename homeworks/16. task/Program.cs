@@ -1,23 +1,23 @@
-﻿void FillRandomNumbers(int[] arr, int from, int to)
+﻿void FillRandomNumbers(double[] arr)
 {
 	Random rand = new Random();
 
 	for (int i = 0; i < arr.Length; i++)
 	{
-		arr[i] = rand.Next(from, to);
+		arr[i] = rand.NextDouble() * 10;
 	}
 }
 
-void PrintNumbers(int[] arr)
+void PrintNumbers(double[] arr)
 {
-	foreach (int val in arr)
+	foreach (double val in arr)
 	{
 		Console.Write(val + " ");
 	}
 	Console.WriteLine();
 }
 
-int FindDifferenceMinAndMax(int[] arr)
+double FindDifferenceMinAndMax(double[] arr)
 {
 	// If the array size is less than 2, it will return the value -1.
 	// Because we can not find minimum and maximum.
@@ -26,7 +26,7 @@ int FindDifferenceMinAndMax(int[] arr)
 		return -1;
 	}
 
-	int min = arr[0],
+	double min = arr[0],
 		max = arr[0];
 
 	for (int i = 1; i < arr.Length; i++)
@@ -45,9 +45,9 @@ int FindDifferenceMinAndMax(int[] arr)
 	return max - min;
 }
 
-int[] arr = new int[6];
-FillRandomNumbers(arr, 0, 100);
+double[] arr = new double[6];
+FillRandomNumbers(arr);
 PrintNumbers(arr);
 
-int diff = FindDifferenceMinAndMax(arr);
+double diff = FindDifferenceMinAndMax(arr);
 Console.WriteLine($"Difference between minimum and maximum is {diff}");
