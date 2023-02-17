@@ -1,6 +1,6 @@
 # Task 19
 
-Specify a two-dimensional array of size m×n filled with random real numbers.
+Specify a two-dimensional array of size `m×n` filled with random real numbers.
 
 ## Example
 
