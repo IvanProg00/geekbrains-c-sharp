@@ -1,4 +1,4 @@
-# Task 22
+# Task 23
 
 Specify a rectangular two-dimensional array. Write a program that will find the
 row with the smallest sum of elements.
@@ -12,4 +12,4 @@ row with the smallest sum of elements.
 5 2 6 7
 ```
 
-result: row 1
+result: Minimum row is 1
